@@ -116,7 +116,7 @@
             this.Controls.Add(this.receiptPanel);
             this.Controls.Add(this.orderPanel);
             this.Name = "SupplyMenuForm";
-            this.Text = "8";
+            this.Text = "Stok";
             this.productionPanel.ResumeLayout(false);
             this.productionPanel.PerformLayout();
             this.receiptPanel.ResumeLayout(false);

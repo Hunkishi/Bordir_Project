@@ -263,11 +263,11 @@ namespace BordiProject
                 }
                 if (checkBox2.Checked)
                 {
-                    querytemp.Append("AND nameCustomer = @nameCustomer ");
+                    querytemp.Append(@"AND nameCustomer = @nameCustomer ");
                 }
                 if (checkBox3.Checked)
                 {
-                    querytemp.Append("AND type = @type ");
+                    querytemp.Append(@"AND type = @type ");
                 }
                 query = querytemp.ToString();
                 using (var cmd = new SQLiteCommand(query, conn))

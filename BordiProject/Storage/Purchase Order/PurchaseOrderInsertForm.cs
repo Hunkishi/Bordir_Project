@@ -207,7 +207,7 @@ namespace BordiProject
                     {
                         cmd.Parameters.AddWithValue("@purchaseID", numberPO);
                         cmd.Parameters.AddWithValue("@nameStock", values[0]);
-                        cmd.Parameters.AddWithValue("@quantity", Convert.ToInt32(values[1]));
+                        cmd.Parameters.AddWithValue("@quantity", Convert.ToDouble(values[1]));
                         cmd.Parameters.AddWithValue("@unit", values[2]);
                         cmd.Parameters.AddWithValue("@price", Convert.ToInt64(values[3]));
                         cmd.ExecuteNonQuery();
